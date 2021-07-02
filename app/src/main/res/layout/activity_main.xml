@@ -39,5 +39,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="212dp"
         android:background="@color/design_default_color_error"
-        android:text="Stop" />
+        android:text="Stop"
+        android:textColor="@color/white" />
 </RelativeLayout>
