@@ -24,5 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 mediaPlayer.start();
             }
         });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
