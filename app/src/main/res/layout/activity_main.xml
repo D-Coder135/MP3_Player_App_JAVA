@@ -14,5 +14,5 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="145dp"
         android:layout_marginTop="173dp"
-        android:text="Button" />
+        android:text="Play" />
 </RelativeLayout>
