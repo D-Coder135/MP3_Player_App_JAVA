@@ -27,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="158dp"
         android:layout_marginBottom="363dp"
-        android:background="@color/design_default_color_error"
+        android:background="@android:color/holo_orange_light"
         android:text="Pause"
         android:textColor="@color/white" />
 
