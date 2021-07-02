@@ -19,25 +19,10 @@ public class MainActivity extends AppCompatActivity {
         button2 = (Button)findViewById(R.id.button2);
         button3 = (Button)findViewById(R.id.button3);
         mediaPlayer = MediaPlayer.create(this, R.raw.believer);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mediaPlayer.start();
-            }
-        });
+        button1.setOnClickListener(v -> mediaPlayer.start());
 
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mediaPlayer.pause();
-            }
-        });
+        button2.setOnClickListener(v -> mediaPlayer.pause());
 
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mediaPlayer.stop();
-            }
-        });
+        button3.setOnClickListener(v -> mediaPlayer.stop());
     }
 }
