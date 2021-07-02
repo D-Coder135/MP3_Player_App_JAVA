@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         button1 = (Button)findViewById(R.id.button1);
         button2 = (Button)findViewById(R.id.button2);
+        button3 = (Button)findViewById(R.id.button3);
         mediaPlayer = MediaPlayer.create(this, R.raw.believer);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
